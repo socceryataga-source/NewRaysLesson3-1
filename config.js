@@ -16,8 +16,9 @@
 window.VR_CONFIG = {
   lessonLabel: "3-1",
 
-  // If true, A/B/C/D labels are overlaid on the 2x2 Full Picture.
-  showQuadrantLabels: true,
+  // The Full Picture images already contain A / B / C / D labels,
+  // so no additional labels are overlaid by the website.
+  showQuadrantLabels: false,
 
   sets: [
     {
